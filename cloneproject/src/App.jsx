@@ -3,7 +3,9 @@ import CarrerReport from "./components/CarrerReportCard"
 import Nav from "./components/Nav"
 import PopularplanCard from "./components/PopularplanCard"
 import RecomendedPlanCard from "./components/RecomendedPlanCard"
+import { FaWhatsapp } from "react-icons/fa";
 
+import { FaRocketchat } from "react-icons/fa6";
 
 function App() {
 
@@ -11,7 +13,7 @@ function App() {
 
 
     <div className=" min-h-screen flex flex-col  justify-center items-center " >
-      
+
       <Nav />
 
       <div className=" flex justify-center  m-5">
@@ -32,6 +34,12 @@ function App() {
         <CarrerReportCard />
         <RecomendedPlanCard />
         <PopularplanCard />
+        <div className="fixed bottom-20  right-10 text-3xl">
+          <FaWhatsapp />
+          <FaRocketchat />
+        </div>
+
+
       </div>
 
 
