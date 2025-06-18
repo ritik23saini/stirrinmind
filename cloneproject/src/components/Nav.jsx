@@ -15,7 +15,7 @@ const Nav = () => {
                 <Link>Psychometric test</Link>
                 <Link>Pricing</Link>
                 <Link>Courses</Link>
-                <p>918800442358</p>
+                <p className='text-blue-400'>918800442358</p>
             </div>
 
             <div className='text-lg font-bold flex justify-center gap-3'>
